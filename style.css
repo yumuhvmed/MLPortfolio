@@ -1321,3 +1321,49 @@ img, svg, video {
         padding: 1rem !important;
     }
 }
+/* Contact Section Mobile Fixes */
+@media (max-width: 768px) {
+    /* تجديد عرض الحاوية الرئيسية */
+    .contact-section, 
+    #contact,
+    .contact-container {
+        width: 100% !important;
+        max-width: 100% !important;
+        padding-left: 1.25rem !important;
+        padding-right: 1.25rem !important;
+        box-sizing: border-box !important;
+    }
+
+    /* جعل الفورم وعناصر الإدخال تمتد بكامل العرض */
+    .contact-form,
+    form {
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+    }
+
+    .contact-form input,
+    .contact-form textarea,
+    form input,
+    form textarea {
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+    }
+
+    /* ضبط زر الارسال ليكون متناسقاً */
+    .contact-form button,
+    form button,
+    .btn-submit {
+        width: 100% !important;
+        box-sizing: border-box !important;
+    }
+
+    /* ضبط نصوص التواصل والروابط حتى لا تخرج عن الشاشة */
+    .contact-info, 
+    .contact-details {
+        word-break: break-word !important;
+        overflow-wrap: break-word !important;
+        width: 100% !important;
+    }
+}
