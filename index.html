@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yousef Mohamed — Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <!-- SEO & Social Media Preview (Open Graph) -->
+    <meta name="description" content="Yousef Mohamed — AI & Machine Learning Engineer Portfolio. Building, training, and deploying intelligent systems.">
+    <meta property="og:title" content="Yousef Mohamed — AI & ML Engineer">
+    <meta property="og:description" content="Computer Science Student & Machine Learning Engineer specializing in computer vision, NLP, and smart systems.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourdomain.com">
+    <link rel="icon" href="https://fav.farm/🤖">
+</head>
+<body>
+
+    <!-- Mouse Glow Element -->
+    <div id="cursor-glow"></div>
+
+    <!-- Header Navigation -->
+    <nav>
+        <div class="location-tag" id="nav-location" data-key="nav-location">
+            🇪🇬 Mansoura / Dakahlia
+        </div>
+
+        <div class="nav-right-group">
+            <div class="nav-links">
+                <a href="#" class="active" data-key="nav-home">Home</a>
+                <a href="#about" data-key="nav-about">About</a>
+                <a href="#education" data-key="nav-edu">Education</a>
+                <a href="#experience" data-key="nav-skills">Skills</a>
+                <a href="#projects" data-key="nav-work">Work</a>
+                <a href="#contact" data-key="nav-contact">Contact</a>
+            </div>
+
+            <button class="lang-btn" id="lang-toggle" onclick="toggleLanguage()">
+                🌐 <span id="lang-text">العربية</span>
+            </button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-text typewriter-reveal">
+                <div class="sub-tag" data-key="hero-subtag">✦ Machine Learning & AI Engineer • Computer Science</div>
+                <h1 class="main-heading" data-key="hero-title">
+                    I build, train, and deploy <span>intelligent systems</span> and computer vision models.
+                </h1>
+                <p class="bio-text" data-key="hero-bio">
+                    I’m <strong>Yousef Mohamed</strong> — an ambitious Computer Science student & Machine Learning Engineer with a solid background in AI algorithms, data-driven solutions, and mathematical modeling.
+                </p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn-primary" data-key="btn-projects">View Projects</a>
+                    <a href="#contact" class="btn-secondary" data-key="btn-contact">Get in touch</a>
+                    <a href="Yousef_Mohamed_CV.pdf" target="_blank" download class="btn-secondary" data-key="btn-cv">Download CV 📄</a>
+                </div>
+            </div>
+
+            <!-- Glassy 3D Terminal Card -->
+            <div class="terminal-card">
+                <div class="terminal-header">
+                    <div class="dots">
+                        <div class="dot red"></div>
+                        <div class="dot yellow"></div>
+                        <div class="dot green"></div>
+                    </div>
+                    <span class="terminal-title" data-key="term-title">yousef.py — Python 3.11</span>
+                </div>
+                <div class="terminal-body">
+                    <p><span class="py-keyword">import</span> <span class="py-func">ml_models</span></p>
+                    <br>
+                    <p><span class="py-comment" data-key="term-comment"># Initialize ML Engineer Profile</span></p>
+                    <p>name = <span class="py-string" data-key="term-name">"Yousef Mohamed"</span></p>
+                    <p>role = <span class="py-string" data-key="term-role">"AI & ML Engineer"</span></p>
+                    <p>status = <span class="py-string" data-key="term-status">"Building AI Solutions"</span></p>
+                    <br>
+                    <p><span class="py-keyword">print</span>(f<span class="py-string">"{name} | {role}"</span>)</p>
+                    <p>>>> <span class="cursor"></span></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="about-section">
+            <div class="about-container">
+                <div class="about-content reveal-left">
+                    <div class="section-header">
+                        <h2 data-key="about-title">About Me</h2>
+                        <span class="section-tag" data-key="about-tag">01 // PROFILE</span>
+                    </div>
+                    
+                    <div class="about-hero-text">
+                        <p class="headline-primary" data-key="about-p1">
+                            I help start-ups launch <span class="highlight-purple">reliable machine learning solutions</span> in record time through high-speed, precision engineering.
+                        </p>
+                        
+                        <p class="headline-secondary" data-key="about-p2">
+                            I help ambitious start-ups outpace competitors by turning complex data into <span class="highlight-glow">high-performing AI products</span> with unmatched speed and precision.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="about-image-wrapper reveal-right">
+                    <div class="image-glow"></div>
+                    <img src="Yousef_Mohamed.png" alt="Yousef Mohamed" class="profile-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section-container">
+            <div class="section-header">
+                <h2 data-key="edu-title">Education 🎓</h2>
+                <span data-key="edu-tag">02 // EDUCATION</span>
+            </div>
+
+            <div class="education-grid">
+                <div class="info-card">
+                    <h3 data-key="edu-card-title">🎓 Education</h3>
+                    <div class="timeline-item">
+                        <span class="timeline-date" data-key="edu-date">2024 — 2028 (Expected)</span>
+                        <h4 data-key="edu-degree">Bachelor of Computer Science (Level 3)</h4>
+                        <p data-key="edu-inst">Misr Higher Institute for Engineering and Technology (MET)</p>
+                    </div>
+
+                    <h3 data-key="lang-title">🌍 Languages</h3>
+                    <div class="pill-container">
+                        <span class="pill" data-key="lang-ar">Arabic — Native</span>
+                        <span class="pill" data-key="lang-en">English — Very Good</span>
+                        <span class="pill" data-key="lang-de">German — Good</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section-container">
+            <div class="section-header">
+                <h2 data-key="exp-title">Experience 💼</h2>
+                <span data-key="exp-tag">03 // EXPERIENCE</span>
+            </div>
+
+            <div class="experience-grid">
+                <div class="info-card">
+                    <h3 data-key="exp-card-title">⚡ Experience & Training</h3>
+                    <div class="timeline-item">
+                        <span class="timeline-date" data-key="exp-date">Jul 2026 — Present</span>
+                        <h4 style="color:#fff; margin-top:4px;" data-key="exp-role">Machine Learning Trainee</h4>
+                        <p style="color:var(--accent-primary, #8b5cf6); font-size:0.85rem; font-weight: 500;" data-key="exp-company">Digital Egypt Pioneers Initiative (DEPI)</p>
+                        <p style="font-size:0.9rem; margin-top:8px; line-height: 1.6;" data-key="exp-desc">
+                            Participating in an intensive 6-month specialized ML track focusing on modern ML model architectures, data cleaning methodologies, hyperparameter tuning, and end-to-end Machine Learning pipelines.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <div class="section-header reveal-left">
+                <h2 data-key="proj-header">Featured Projects</h2>
+                <span data-key="proj-tag">04 // PORTFOLIO</span>
+            </div>
+            <div class="projects-grid" id="featured-projects-grid"></div>
+            <div style="text-align: center; margin-top: 2rem;">
+                <a href="projects.html" class="btn-secondary" data-key="btn-more-projects">المزيد / See All Projects ➔</a>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section-container">
+            <div class="section-header">
+                <h2 data-key="contact-header">Get In Touch ✉️</h2>
+                <span data-key="contact-tag">05 // CONTACT</span>
+            </div>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3 style="color:#fff; font-size:1.6rem;" data-key="contact-title">Let's discuss a project or opportunity.</h3>
+                    <p data-key="contact-desc">
+                        Feel free to reach out via phone, email, or social profiles. I am open to AI/ML engineering roles, collaborations, and research discussions.
+                    </p>
+                    <div class="contact-details">
+                        <a href="mailto:illysvvv@gmail.com" class="contact-item">
+                            📧 illysvvv@gmail.com
+                        </a>
+                        <a href="tel:01027854570" class="contact-item">
+                            📞 +20 102 785 4570
+                        </a>
+                        <a href="https://linkedin.com/in/illysvvv" target="_blank" rel="noopener noreferrer" class="contact-item">
+                            🔗 linkedin.com/in/illysvvv
+                        </a>
+                        <a href="https://github.com/yumuhvmed" target="_blank" rel="noopener noreferrer" class="contact-item">
+                            💻 github.com/yumuhvmed
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Contact Form Connected to Formspree -->
+                <form class="contact-form" action="https://formspree.io/f/mgaeyzgn" method="POST" id="contactForm">
+                    <div class="form-group">
+                        <label for="name" data-key="form-name">YOUR NAME</label>
+                        <input type="text" name="name" id="name" placeholder="John Doe" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" data-key="form-email">YOUR EMAIL</label>
+                        <input type="email" name="email" id="email" placeholder="john@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" data-key="form-msg">MESSAGE</label>
+                        <textarea name="message" id="message" rows="4" placeholder="Hi Yousef, I would like to talk about..." required></textarea>
+                    </div>
+                    <button type="submit" class="form-submit" id="submitBtn" data-key="form-btn">Send Message 🚀</button>
+                    <p id="formStatus" style="margin-top: 1rem; font-size: 0.9rem; display: none;"></p>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p data-key="footer-text">&copy; 2026 Yousef Mohamed. Engineered with Precision.</p>
+    </footer>
+
+    <script src="translations.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="script.js"></script>
+</body>
+</html>
