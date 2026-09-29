@@ -12,7 +12,7 @@ const translations = {
         // Hero Section
         "hero-subtag": "✦ Machine Learning & AI Engineer • Computer Science",
         "hero-title": "I build, train, and deploy <span>intelligent systems</span> and computer vision models.",
-        "hero-bio": "I’m <strong>Yousef Mohamed</strong> — an ambitious Computer Science student & Machine Learning Engineer with a solid background in AI algorithms, data-driven solutions, and mathematical modeling.",
+        "hero-bio": "I’m <strong>Yousef Mohamed</strong> — AI Member @TeamConnectors  & Machine Learning Engineer with a solid background in AI algorithms, data-driven solutions, and mathematical modeling.",
         "btn-projects": "View Projects",
         "btn-contact": "Get in touch",
         "btn-cv": "Download CV 📄",
@@ -82,7 +82,7 @@ const translations = {
         // Hero Section
         "hero-subtag": "✦ مهندس تعلم آلة وذكاء اصطناعي • علوم الحاسب",
         "hero-title": "أقوم ببناء وتدريب ونشر <span>الأنظمة الذكية</span> ونماذج الرؤية الحاسوبية.",
-        "hero-bio": "أنا <strong>يوسف محمد</strong> — طالب علوم حاسب وطموح ومهندس تعلم آلة، أملك خلفية قوية في خوارزميات الذكاء الاصطناعي والحلول القائمة على البيانات والنمذجة الرياضية.",
+        "hero-bio": "أنا <strong>يوسف محمد</strong> — عضو ذكاء اصطناعي في فريق Connectors ومهندس تعلم آلة، أملك خلفية قوية في خوارزميات الذكاء الاصطناعي والحلول القائمة على البيانات والنمذجة الرياضية.",
         "btn-projects": "عرض المشاريع",
         "btn-contact": "تواصل معي",
         "btn-cv": "تحميل السيرة الذاتية 📄",
