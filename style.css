@@ -1229,6 +1229,28 @@ img, svg, video {
     flex-grow: 1;
 }
 
+.live-demo-btn {
+    margin: 5px;
+    padding: 0.5rem 1rem;
+    background-color: rgba(255, 255, 255, 0.05); /* خلفية شفافة خفيفة */
+    color: #e2e8f0; /* لون نص فاتح وواضح */
+    border: 1px solid rgba(255, 255, 255, 0.12); /* إطار خفيف */
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    transition: all 0.2s ease;
+}
+
+.live-demo-btn:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(139, 92, 246, 0.5);
+    color: #fff;
+}
+
 /* Tech Stack Design */
 .project-tags {
     display: flex;

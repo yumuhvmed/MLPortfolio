@@ -112,6 +112,11 @@ async function loadFeaturedProjects() {
                                     View Code
                                 </a>
                             ` : ''}
+                            ${project.demo_url ? `
+                                <a href="${project.demo_url}" target="_blank" class="live-demo-btn">
+                                    Demo
+                                </a>
+                            ` : ''}
                         </div>
                     </div>
                 </div>
